@@ -1,0 +1,63 @@
+body {
+    background: #a6a4a4;
+}
+
+.header {
+    background: url("../img/bgtec.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header img{
+ width: 23vw;
+ height: 23vw;
+ margin-left: 39%;
+}
+.mainav {
+    margin-left: 26%;
+}
+.mainav ul,li{
+    display: inline;
+
+}
+
+.mainav ul li a{
+    margin-left: 5%;   
+    margin-top: -0.1%;
+    height: 25px;
+    
+    
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+    text-decoration: none;
+}
+
+.mainav ul li a:hover{
+    color:#000;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: xx-large;
+
+}
+
+.redondo{
+    border-radius: 50%;
+}
+
+.content {
+    text-align: justify;
+    text-indent: 18px;
+    width: 60%;
+    margin-left: 22%;
+}
+.content h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    clear: both;
+}
